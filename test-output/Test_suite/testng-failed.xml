@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Test_suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="HR.AddCEO">
+        <methods>
+          <include name="login"/>
+          <include name="initialize"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- HR.AddCEO -->
+      <class name="HR.offerletter">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- HR.offerletter -->
+      <class name="Frontdesk.couriers">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Frontdesk.couriers -->
+      <class name="Purchase.Vendors">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Purchase.Vendors -->
+      <class name="Purchase.PartEntry">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Purchase.PartEntry -->
+      <class name="HR.MultLogin">
+        <methods>
+          <include name="initialize"/>
+          <include name="login"/>
+          <include name="closeBrowsers"/>
+        </methods>
+      </class> <!-- HR.MultLogin -->
+      <class name="Accounts.NewLedger">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Accounts.NewLedger -->
+      <class name="Accounts.AccountEntry">
+        <methods>
+          <include name="login"/>
+          <include name="accEntry" invocation-numbers="2 3"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Accounts.AccountEntry -->
+      <class name="HR.AddEmp">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- HR.AddEmp -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Test_suite] -->

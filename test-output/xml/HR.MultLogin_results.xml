@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="162.918">
+  <properties />
+  
+  
+            <testcase name="doLoginTest" time="13.614" classname="HR.MultLogin" />
+                <testcase name="doLoginTest" time="13.558" classname="HR.MultLogin" />
+                <testcase name="doLoginTest" time="13.758" classname="HR.MultLogin" />
+                <testcase name="doLoginTest" time="13.422" classname="HR.MultLogin" />
+                <testcase name="doLoginTest" time="13.594" classname="HR.MultLogin" />
+                <testcase name="doLoginTest" time="13.699" classname="HR.MultLogin" />
+                <testcase name="doLoginTest" time="13.423" classname="HR.MultLogin" />
+                <testcase name="doLoginTest" time="13.600" classname="HR.MultLogin" />
+                <testcase name="doLoginTest" time="13.917" classname="HR.MultLogin" />
+                <testcase name="doLoginTest" time="13.587" classname="HR.MultLogin" />
+                <testcase name="doLoginTest" time="13.577" classname="HR.MultLogin" />
+                <testcase name="doLoginTest" time="13.169" classname="HR.MultLogin" />
+      
+</testsuite>

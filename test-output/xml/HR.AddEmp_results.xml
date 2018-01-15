@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="494.775">
+  <properties />
+  
+  
+            <testcase name="hres" time="41.063" classname="HR.AddEmp" />
+                <testcase name="hres" time="41.086" classname="HR.AddEmp" />
+                <testcase name="hres" time="40.406" classname="HR.AddEmp" />
+                <testcase name="hres" time="46.116" classname="HR.AddEmp" />
+                <testcase name="hres" time="40.693" classname="HR.AddEmp" />
+                <testcase name="hres" time="40.563" classname="HR.AddEmp" />
+                <testcase name="hres" time="40.383" classname="HR.AddEmp" />
+                <testcase name="hres" time="40.529" classname="HR.AddEmp" />
+                <testcase name="hres" time="40.023" classname="HR.AddEmp" />
+                <testcase name="hres" time="41.420" classname="HR.AddEmp" />
+                <testcase name="hres" time="42.106" classname="HR.AddEmp" />
+                <testcase name="hres" time="40.387" classname="HR.AddEmp" />
+      
+</testsuite>

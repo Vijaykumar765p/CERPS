@@ -1,0 +1,390 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>62/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 01 10:29:38 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>2086 seconds (2086576 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Purchase.Vendors.NewVendor()'><b>NewVendor</b><br>Test class: Purchase.Vendors<br>Parameters: Airtel, B-1178, Shop No.2, G D Colony, Near Redfox Hotel, Mayur Vihar Ph-3, New Delhi, Delhi, 9876832890, 0832789654, 2129998888, 07ABCDE1234A1Z1, ABNMJ1234K, SUNIL MISHRA, sunilmishra.airtel@gmail.com, 0, Cr</td>
+<td></td>
+<td>26</td>
+<td>Purchase.Vendors@6e8dacdf</td></tr>
+<tr>
+<td title='Purchase.Vendors.NewVendor()'><b>NewVendor</b><br>Test class: Purchase.Vendors<br>Parameters: E-Tech Systems, Shop No.2, Om Maruti Building, Fort Road, Near Subhash Transport, Belagavi, Karnataka, 9876052856, 0832789655, 2129998889, 29ABCDE9876A1Z2, XYZWQ9867H, AMIT SHAH, amithshah@yahoo.com, 0, Cr</td>
+<td></td>
+<td>26</td>
+<td>Purchase.Vendors@6e8dacdf</td></tr>
+<tr>
+<td title='Purchase.Vendors.NewVendor()'><b>NewVendor</b><br>Test class: Purchase.Vendors<br>Parameters: Vodafone, Peninsula Corporate Park,Ganpatrao Kadam Marg,Lower Parel, Mumbai, Maharastra, 9886098860, 0871715000, 2224963645, 27ABCDE7894B1Z2, MKCCJ5674C,  Vittorio Colao, vodafonecare.kar@vodafone.com, 0, Cr</td>
+<td></td>
+<td>26</td>
+<td>Purchase.Vendors@6e8dacdf</td></tr>
+<tr>
+<td title='Purchase.Vendors.NewVendor()'><b>NewVendor</b><br>Test class: Purchase.Vendors<br>Parameters: Sun Computers, No 6/2 P.R.Lane SP road cross bangalore, Bangalore, Karnataka, 9342898451, 0841154685, 2984963645, 29ANAPS8146C1ZV, HGHJC8364K, ARJUN SINGH, sun-computers@live.com, 0, Cr</td>
+<td></td>
+<td>26</td>
+<td>Purchase.Vendors@6e8dacdf</td></tr>
+<tr>
+<td title='Accounts.AccountEntry.accEntry()'><b>accEntry</b><br>Test class: Accounts.AccountEntry<br>Parameters: CR, FAAST INSTALLA, 1000, , , Ranjit Singh Kohli UN 9632195667 New Connection - OTC received from CCPL(installation charges)</td>
+<td></td>
+<td>15</td>
+<td>Accounts.AccountEntry@1e643faf</td></tr>
+<tr>
+<td title='Accounts.AccountEntry.accEntry()'><b>accEntry</b><br>Test class: Accounts.AccountEntry<br>Parameters: CR, FAAST DEPO, 2000, , , Ranjit Singh Kohli UN 9632195667 New Connection - OTC received from CCPL(Deposit amount)</td>
+<td></td>
+<td>15</td>
+<td>Accounts.AccountEntry@1e643faf</td></tr>
+<tr>
+<td title='Accounts.AccountEntry.accEntry()'><b>accEntry</b><br>Test class: Accounts.AccountEntry<br>Parameters: CR, FAAST MON, 875, , , Deepa Reddy UN 9964526730 Received Internet bill for month Nov-2017</td>
+<td></td>
+<td>14</td>
+<td>Accounts.AccountEntry@1e643faf</td></tr>
+<tr>
+<td title='Accounts.AccountEntry.accEntry()'><b>accEntry</b><br>Test class: Accounts.AccountEntry<br>Parameters: QR, FAAST MON, 1500, 738092, Axis bank, Sadanand Bhusari UN 9341399467 New Connection - OTC received from CCPL</td>
+<td></td>
+<td>15</td>
+<td>Accounts.AccountEntry@1e643faf</td></tr>
+<tr>
+<td title='Accounts.AccountEntry.accEntry()'><b>accEntry</b><br>Test class: Accounts.AccountEntry<br>Parameters: CP, SANTOSH, 500, , , Paid for dinner to 5 member(santosh,sachin veerbhadra,raghavendra,sharnu)</td>
+<td></td>
+<td>14</td>
+<td>Accounts.AccountEntry@1e643faf</td></tr>
+<tr>
+<td title='Accounts.AccountEntry.accEntry()'><b>accEntry</b><br>Test class: Accounts.AccountEntry<br>Parameters: CD, AJIT PATIL HD, 150000, , , Cash deposited in HDFC by Balesh</td>
+<td></td>
+<td>14</td>
+<td>Accounts.AccountEntry@1e643faf</td></tr>
+<tr>
+<td title='HR.AddCEO.addceo()'><b>addceo</b><br>Test class: HR.AddCEO</td>
+<td></td>
+<td>42</td>
+<td>HR.AddCEO@7c30a502</td></tr>
+<tr>
+<td title='HR.MultLogin.doLoginTest()'><b>doLoginTest</b><br>Test class: HR.MultLogin<br>Parameters: BTKPP7426B, BTKPP7426B, 31391520568, SBIN0001727, STATE BANK OF INDIA, Y</td>
+<td></td>
+<td>13</td>
+<td>HR.MultLogin@3ac3fd8b</td></tr>
+<tr>
+<td title='HR.MultLogin.doLoginTest()'><b>doLoginTest</b><br>Test class: HR.MultLogin<br>Parameters: GHJPS4391J, GHJPS4391J, 35200671165, SBIN0001813, STATE BANK OF INDIA, Y</td>
+<td></td>
+<td>13</td>
+<td>HR.MultLogin@3ac3fd8b</td></tr>
+<tr>
+<td title='HR.MultLogin.doLoginTest()'><b>doLoginTest</b><br>Test class: HR.MultLogin<br>Parameters: BAHPB3290F, BAHPB3290F, 3504743307, CBIN0280871, CENTRAL BANK OF INDIA, Y</td>
+<td></td>
+<td>14</td>
+<td>HR.MultLogin@3ac3fd8b</td></tr>
+<tr>
+<td title='HR.MultLogin.doLoginTest()'><b>doLoginTest</b><br>Test class: HR.MultLogin<br>Parameters: ARQPA3783R, ARQPA3783R, 60215946208, MAHB0000031, BANK OF MAHARASHTRA, Y</td>
+<td></td>
+<td>13</td>
+<td>HR.MultLogin@3ac3fd8b</td></tr>
+<tr>
+<td title='HR.MultLogin.doLoginTest()'><b>doLoginTest</b><br>Test class: HR.MultLogin<br>Parameters: AXEPB1382P, AXEPB1382P, 3504009261, CBIN0280871, CENTRAL BANK OF INDIA, Y</td>
+<td></td>
+<td>13</td>
+<td>HR.MultLogin@3ac3fd8b</td></tr>
+<tr>
+<td title='HR.MultLogin.doLoginTest()'><b>doLoginTest</b><br>Test class: HR.MultLogin<br>Parameters: AWIPM9128P, AWIPM9128P, 3504008462, CBIN0280871, CENTRAL BANK OF INDIA, Y</td>
+<td></td>
+<td>13</td>
+<td>HR.MultLogin@3ac3fd8b</td></tr>
+<tr>
+<td title='HR.MultLogin.doLoginTest()'><b>doLoginTest</b><br>Test class: HR.MultLogin<br>Parameters: BANPG0820L, BANPG0820L, 3504005212, CBIN0280871, CENTRAL BANK OF INDIA, Y</td>
+<td></td>
+<td>13</td>
+<td>HR.MultLogin@3ac3fd8b</td></tr>
+<tr>
+<td title='HR.MultLogin.doLoginTest()'><b>doLoginTest</b><br>Test class: HR.MultLogin<br>Parameters: ASEDR3459B, ASEDR3459B, 520291039635381, CORP0001492, CORPORATION BANK, Y</td>
+<td></td>
+<td>13</td>
+<td>HR.MultLogin@3ac3fd8b</td></tr>
+<tr>
+<td title='HR.MultLogin.doLoginTest()'><b>doLoginTest</b><br>Test class: HR.MultLogin<br>Parameters: CAQPD1155F, CAQPD1155F, 2412268597, KKBK0000447, KOTAK MAHINDRA BANK, Y</td>
+<td></td>
+<td>13</td>
+<td>HR.MultLogin@3ac3fd8b</td></tr>
+<tr>
+<td title='HR.MultLogin.doLoginTest()'><b>doLoginTest</b><br>Test class: HR.MultLogin<br>Parameters: DGAPK3347B, DGAPK3347B, 3504004036, CBIN0280871, CENTRAL BANK OF INDIA, Y</td>
+<td></td>
+<td>13</td>
+<td>HR.MultLogin@3ac3fd8b</td></tr>
+<tr>
+<td title='HR.MultLogin.doLoginTest()'><b>doLoginTest</b><br>Test class: HR.MultLogin<br>Parameters: ABCDE1234F, ABCDE1234F, 20346305228, SBIN0017789, STATE BANK INDIA, Y</td>
+<td></td>
+<td>13</td>
+<td>HR.MultLogin@3ac3fd8b</td></tr>
+<tr>
+<td title='HR.MultLogin.doLoginTest()'><b>doLoginTest</b><br>Test class: HR.MultLogin<br>Parameters: XYZWQ9867H, XYZWQ9867H, 3504008462, CBIN0280871, CENTRAL BANK OF INDIA, Y</td>
+<td></td>
+<td>13</td>
+<td>HR.MultLogin@3ac3fd8b</td></tr>
+<tr>
+<td title='HR.EditEmp.editemp()'><b>editemp</b><br>Test class: HR.EditEmp</td>
+<td></td>
+<td>16</td>
+<td>HR.EditEmp@43a25848</td></tr>
+<tr>
+<td title='HR.offerletter.genoffltr()'><b>genoffltr</b><br>Test class: HR.offerletter<br>Parameters: GANESH ASHOK MOTEKAR, ganesh.motekar91@gmail.com, 17/09/2015, 3, TEAM LEAD, Ajit Patil, 120000</td>
+<td></td>
+<td>19</td>
+<td>HR.offerletter@49e4cb85</td></tr>
+<tr>
+<td title='HR.offerletter.genoffltr()'><b>genoffltr</b><br>Test class: HR.offerletter<br>Parameters: VIJAYKUMAR ASHOK PATTAR, vpattar6@gmail.com, 08/08/2016, 9, Automation Tester, Ajit Patil, 120000</td>
+<td></td>
+<td>19</td>
+<td>HR.offerletter@49e4cb85</td></tr>
+<tr>
+<td title='HR.offerletter.genoffltr()'><b>genoffltr</b><br>Test class: HR.offerletter<br>Parameters: NAMRATA SADASHIV SAMBAREKAR, sambarekarnamrata@gmail.com, 01/08/2016, 3, Android Developer, Ajit Patil, 120000</td>
+<td></td>
+<td>19</td>
+<td>HR.offerletter@49e4cb85</td></tr>
+<tr>
+<td title='HR.offerletter.genoffltr()'><b>genoffltr</b><br>Test class: HR.offerletter<br>Parameters: Santoshkumar Mallappa Badiger, santosh.b@credenceis.com, 01/09/2013, 5, Implementation Engg, Ajit Patil, 120000</td>
+<td></td>
+<td>19</td>
+<td>HR.offerletter@49e4cb85</td></tr>
+<tr>
+<td title='HR.offerletter.genoffltr()'><b>genoffltr</b><br>Test class: HR.offerletter<br>Parameters: BALESH SHRISHAIL DHULA, baleshdhula108@gmail.com, 20/07/2017, 5, implementation Engineer, Ajit Patil, 120000</td>
+<td></td>
+<td>19</td>
+<td>HR.offerletter@49e4cb85</td></tr>
+<tr>
+<td title='HR.offerletter.genoffltr()'><b>genoffltr</b><br>Test class: HR.offerletter<br>Parameters: Rucha Akshay Bapat, ruchab28@gmail.com, 22/08/2017, 5, Software Implementation Analyst, Ajit Patil, 120000</td>
+<td></td>
+<td>19</td>
+<td>HR.offerletter@49e4cb85</td></tr>
+<tr>
+<td title='HR.offerletter.genoffltr()'><b>genoffltr</b><br>Test class: HR.offerletter<br>Parameters: SACHIN MAHADEV BADIGER, sutar.bgm@gmail.com, 25/06/2014, 5, SENIOR IMPLEMENTATION ENGINEER, Ajit Patil, 120000</td>
+<td></td>
+<td>19</td>
+<td>HR.offerletter@49e4cb85</td></tr>
+<tr>
+<td title='HR.offerletter.genoffltr()'><b>genoffltr</b><br>Test class: HR.offerletter<br>Parameters: GIRISH ANJANAPPA GADAGKAR, girishgadagkar@gmail.com, 10/08/2015, 5, Network Engineer, Ajit Patil, 120000</td>
+<td></td>
+<td>19</td>
+<td>HR.offerletter@49e4cb85</td></tr>
+<tr>
+<td title='HR.offerletter.genoffltr()'><b>genoffltr</b><br>Test class: HR.offerletter<br>Parameters: NASHIRUDDIN A KODAGANUR, nashir.k@credenceis.com, 26/10/2015, 3, Software Engineer, Ajit Patil, 120000</td>
+<td></td>
+<td>37</td>
+<td>HR.offerletter@49e4cb85</td></tr>
+<tr>
+<td title='HR.offerletter.genoffltr()'><b>genoffltr</b><br>Test class: HR.offerletter<br>Parameters: VIKRAM VAMAN MARGANACHE, vikram.m@credenceis.com, 26/07/2017, 3, Sr. Software Engineer, Ajit Patil, 120000</td>
+<td></td>
+<td>19</td>
+<td>HR.offerletter@49e4cb85</td></tr>
+<tr>
+<td title='HR.offerletter.genoffltr()'><b>genoffltr</b><br>Test class: HR.offerletter<br>Parameters: SUGANDHA V SHINDE, sugandha.s@credenceis.com, 02/11/2017, 4, Technical Support, Ajit Patil, 120000</td>
+<td></td>
+<td>19</td>
+<td>HR.offerletter@49e4cb85</td></tr>
+<tr>
+<td title='HR.offerletter.genoffltr()'><b>genoffltr</b><br>Test class: HR.offerletter<br>Parameters: VEERABHADRA R HARIGOUDRA, veerabhadraharigoudra@gmail.com, 19/05/2017, 5, Implementation engg, Ajit Patil, 120000</td>
+<td></td>
+<td>19</td>
+<td>HR.offerletter@49e4cb85</td></tr>
+<tr>
+<td title='HR.AddEmp.hres()'><b>hres</b><br>Test class: HR.AddEmp<br>Parameters: GANESH ASHOK MOTEKAR, Male, Married, 18/03/1986, B.K KANGRALI, Belagavi, 8951035547, ganesh.motekar91@gmail.com, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\GANESH_ASHOK_MOTEKAR_ganesh.jpg, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\GANESH_ASHOK_MOTEKAR_download.jpg, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\GANESH_ASHOK_MOTEKAR_aadhar-card-photo.jpg, 3, TEAM LEAD, 00000002, NULL, AWIPM9128P, NULL, 17/09/2015, 120000, 0, 0, 0, 0</td>
+<td></td>
+<td>40</td>
+<td>HR.AddEmp@2133c8f8</td></tr>
+<tr>
+<td title='HR.AddEmp.hres()'><b>hres</b><br>Test class: HR.AddEmp<br>Parameters: VIJAYKUMAR ASHOK PATTAR, Male, Single, 26/04/1989, Vivekananda nagar 9th cross,Gokak, Belagavi, 9731513765, vpattar6@gmail.com, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\Vijaykumar_Pattar_5277097-medium_jpg.jpg, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\Vijaykumar_Pattar_myaadharcard.png, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\Vijaykumar_Pattar_myaadharcard.png, 9, Automation Tester, 00000003, NULL, BTKPP7426B, NULL, 08/08/2016, 120000, 0, 0, 0, 0</td>
+<td></td>
+<td>40</td>
+<td>HR.AddEmp@2133c8f8</td></tr>
+<tr>
+<td title='HR.AddEmp.hres()'><b>hres</b><br>Test class: HR.AddEmp<br>Parameters: NAMRATA SADASHIV SAMBAREKAR, Female, Single, 29/04/1992, HOUSE NO. 4057/C2, KANGRAL GALLI, Belagavi, 8549826883, sambarekarnamrata@gmail.com, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\NAMRATA_SADASHIV_SAMBAREKAR_photo1.jpg, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\NAMRATA_SADASHIV_SAMBAREKAR_008.jpg, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\NAMRATA_SADASHIV_SAMBAREKAR_001.jpg, 3, Android Developer, 00000004, NULL, GHJPS4391J, NULL, 01/08/2016, 120000, 0, 0, 0, 0</td>
+<td></td>
+<td>40</td>
+<td>HR.AddEmp@2133c8f8</td></tr>
+<tr>
+<td title='HR.AddEmp.hres()'><b>hres</b><br>Test class: HR.AddEmp<br>Parameters: Santoshkumar Mallappa Badiger, Male, Married, 10/07/1986, Ammanagi, Belagavi, 9741795072, santosh.b@credenceis.com, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\Santoshkumar_Mallappa_Badiger_Picture 310.jpg, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\Santoshkumar_Mallappa_Badiger_Screenshot_2016-10-07-15-55-05-997_com.intsig.camscanner.jpg, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\/Santoshkumar_Mallappa_Badiger_Screenshot_2016-10-07-15-55-05-997_com.intsig.camscanner.jpg, 5, Implementation Engg, 00000005, NULL, BAHPB3290F, NULL, 01/09/2013, 120000, 0, 0, 0, 0</td>
+<td></td>
+<td>41</td>
+<td>HR.AddEmp@2133c8f8</td></tr>
+<tr>
+<td title='HR.AddEmp.hres()'><b>hres</b><br>Test class: HR.AddEmp<br>Parameters: BALESH SHRISHAIL DHULA, Male, Single, 13/07/1991, A/P: Shivapur (konnur) Ta:gokak Dist:Belagavi
+Pincode: 591231 karanatak, Belagavi, 8971825944, baleshdhula108@gmail.com, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\BALESH_SHRISHAIL_DHULA_IMG_20171109_191544.jpg, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\BALESH_SHRISHAIL_DHULA_ADHAR 10001.jpg, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\BALESH_SHRISHAIL_DHULA_ADHAR 10002.jpg, 5, implementation Engineer, 00000006, NULL, CAQPD1155F, NULL, 20/07/2017, 120000, 0, 0, 0, 0</td>
+<td></td>
+<td>41</td>
+<td>HR.AddEmp@2133c8f8</td></tr>
+<tr>
+<td title='HR.AddEmp.hres()'><b>hres</b><br>Test class: HR.AddEmp<br>Parameters: Rucha Akshay Bapat, Female, Married, 28/11/1991, Kelkar Baug , Belgaum, Belagavi, 9900619694, ruchab28@gmail.com, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\Rucha_Akshay_Bapat_IMG_20171211_092136.jpg, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\Rucha_Akshay_Bapat_IMG_20171211_092059.jpg, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\Rucha_Akshay_Bapat_IMG_20171211_092030.jpg, 5, Software Implementation Analyst, 00000007, NULL, ARQPA3783R, NULL, 22/08/2017, 120000, 0, 0, 0, 0</td>
+<td></td>
+<td>41</td>
+<td>HR.AddEmp@2133c8f8</td></tr>
+<tr>
+<td title='HR.AddEmp.hres()'><b>hres</b><br>Test class: HR.AddEmp<br>Parameters: SACHIN MAHADEV BADIGER, Male, Married, 01/02/1989, At/p kerur Tal :Chikodi Dist : Belgaum, Belagavi, 8105691901, sutar.bgm@gmail.com, , , , 5, SENIOR IMPLEMENTATION ENGINEER, 00000008, NULL, AXEPB1382P, NULL, 25/06/2014, 120000, 0, 0, 0, 0</td>
+<td></td>
+<td>69</td>
+<td>HR.AddEmp@2133c8f8</td></tr>
+<tr>
+<td title='HR.AddEmp.hres()'><b>hres</b><br>Test class: HR.AddEmp<br>Parameters: GIRISH ANJANAPPA GADAGKAR, Male, Single, 01/01/1990, Railway Qtrs No.131/B, Down Chawl, Gadag Road, Hubballi- 580020, Belagavi, 9886009773, girishgadagkar@gmail.com, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\GIRISH_ANJANAPPA_GADAGKAR_G_Photo Original.png, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\GIRISH_ANJANAPPA_GADAGKAR_Aadhaar Card_447811158254_18092017204931_732675.pdf, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\GIRISH_ANJANAPPA_GADAGKAR_Aadhaar Card_447811158254_18092017204931_732675.pdf, 5, Network Engineer, 00000009, NULL, BANPG0820L, NULL, 10/08/2015, 120000, 0, 0, 0, 0</td>
+<td></td>
+<td>41</td>
+<td>HR.AddEmp@2133c8f8</td></tr>
+<tr>
+<td title='HR.AddEmp.hres()'><b>hres</b><br>Test class: HR.AddEmp<br>Parameters: NASHIRUDDIN A KODAGANUR, Male, Married, 31/07/1991, # 184, Sahyandri Nagar, Belgaum., Belagavi, 8553574795, nashir.k@credenceis.com, , , , 3, Software Engineer, 00000010, NULL, DGAPK3347B, NULL, 26/10/2015, 120000, 0, 0, 0, 0</td>
+<td></td>
+<td>40</td>
+<td>HR.AddEmp@2133c8f8</td></tr>
+<tr>
+<td title='HR.AddEmp.hres()'><b>hres</b><br>Test class: HR.AddEmp<br>Parameters: VIKRAM VAMAN MARGANACHE, Male, Married, 13/06/1985, SARASWATI NAGAR, Belagavi, 9945946934, vikram.m@credenceis.com, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\VIKRAM_VAMAN_MARGANACHE_deepak.jpg, , , 3, Sr. Software Engineer, 00000011, NULL, ASEDR3459B, NULL, 26/07/2017, 120000, 0, 0, 0, 0</td>
+<td></td>
+<td>40</td>
+<td>HR.AddEmp@2133c8f8</td></tr>
+<tr>
+<td title='HR.AddEmp.hres()'><b>hres</b><br>Test class: HR.AddEmp<br>Parameters: SUGANDHA V SHINDE, Female, Single, 20/05/1996, H.no 4367, Chavat galli, Belagavi, 8792647966, sugandha.s@credenceis.com, C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\SUGANDHA_V_SHINDE_IMG_20171211_094216.jpg, , , 4, Technical Support, 00000012, NULL, ABCDE1234F, NULL, 02/11/2017, 120000, 0, 0, 0, 0</td>
+<td></td>
+<td>40</td>
+<td>HR.AddEmp@2133c8f8</td></tr>
+<tr>
+<td title='HR.AddEmp.hres()'><b>hres</b><br>Test class: HR.AddEmp<br>Parameters: VEERABHADRA R HARIGOUDRA, Male, Married, 30/11/1986, #99/2 main road Mangai nagar, Wadagaon., Belagavi, 9590672778, veerabhadraharigoudra@gmail.com, , , , 5, Implementation engg, 00000013, NULL, XYZWQ9867H, NULL, 19/05/2017, 120000, 0, 0, 0, 0</td>
+<td></td>
+<td>40</td>
+<td>HR.AddEmp@2133c8f8</td></tr>
+<tr>
+<td title='Frontdesk.couriers.newcrrs()'><b>newcrrs</b><br>Test class: Frontdesk.couriers<br>Parameters: Airtel, Sugandha, Airtel Bill, E-teck System, Belgavi, DTDC, 1234, Sugandha, 60, PoE</td>
+<td></td>
+<td>25</td>
+<td>Frontdesk.couriers@5594a1b5</td></tr>
+<tr>
+<td title='Frontdesk.couriers.newcrrs()'><b>newcrrs</b><br>Test class: Frontdesk.couriers<br>Parameters: Vodafone, Sugandha, Invoice, SyroTech, Noida, DHFL, 93884, Sugandha, 300, Wires</td>
+<td></td>
+<td>25</td>
+<td>Frontdesk.couriers@5594a1b5</td></tr>
+<tr>
+<td title='Frontdesk.couriers.newcrrs()'><b>newcrrs</b><br>Test class: Frontdesk.couriers<br>Parameters: E-teck System, Sachin, Material stock, Sunil G, Sankeshwar, Professional, 39948, Sugandha, 25, Parcel</td>
+<td></td>
+<td>25</td>
+<td>Frontdesk.couriers@5594a1b5</td></tr>
+<tr>
+<td title='Frontdesk.couriers.newcrrs()'><b>newcrrs</b><br>Test class: Frontdesk.couriers<br>Parameters: Reliance, Sugandha, Invoice, Sandeep M, Gokak, Professional, 09477, Sugandha, 25, Parcel</td>
+<td></td>
+<td>24</td>
+<td>Frontdesk.couriers@5594a1b5</td></tr>
+<tr>
+<td title='Accounts.NewLedger.newledgr()'><b>newledgr</b><br>Test class: Accounts.NewLedger<br>Parameters: TEA EXPENSE, DIRECT EXPENSE ACCOUNT, DIRECT EXPEN, 0, Cr</td>
+<td></td>
+<td>16</td>
+<td>Accounts.NewLedger@6a5fc7f7</td></tr>
+<tr>
+<td title='Accounts.NewLedger.newledgr()'><b>newledgr</b><br>Test class: Accounts.NewLedger<br>Parameters: AJIT PATIL UNION BANK 1133, BANK ACCOUNT, EMPLOY, 0, Cr</td>
+<td></td>
+<td>16</td>
+<td>Accounts.NewLedger@6a5fc7f7</td></tr>
+<tr>
+<td title='Accounts.NewLedger.newledgr()'><b>newledgr</b><br>Test class: Accounts.NewLedger<br>Parameters: AJIT PATIL CITY BANK 2290, BANK ACCOUNT, EMPLOY, 0, Cr</td>
+<td></td>
+<td>17</td>
+<td>Accounts.NewLedger@6a5fc7f7</td></tr>
+<tr>
+<td title='Accounts.NewLedger.newledgr()'><b>newledgr</b><br>Test class: Accounts.NewLedger<br>Parameters: AJIT PATIL AXIS BANK 8975, BANK ACCOUNT, EMPLOY, 0, Cr</td>
+<td></td>
+<td>18</td>
+<td>Accounts.NewLedger@6a5fc7f7</td></tr>
+<tr>
+<td title='Accounts.NewLedger.newledgr()'><b>newledgr</b><br>Test class: Accounts.NewLedger<br>Parameters: POOJA EXPENSE, DIRECT EXPENSE ACCOUNT, EXPEN, 0, Cr</td>
+<td></td>
+<td>16</td>
+<td>Accounts.NewLedger@6a5fc7f7</td></tr>
+<tr>
+<td title='Purchase.PartEntry.newpartentry()'><b>newpartentry</b><br>Test class: Purchase.PartEntry<br>Parameters: P001, 1234, SAMSUNG SSD, Nos, 3900, 0, 0, 0, 0, 18, Solid state drive</td>
+<td></td>
+<td>19</td>
+<td>Purchase.PartEntry@7a79be86</td></tr>
+<tr>
+<td title='Purchase.PartEntry.newpartentry()'><b>newpartentry</b><br>Test class: Purchase.PartEntry<br>Parameters: P002, 1235, COMPUTER POWER CORDS, Nos, 59.32, 0, 0, 9, 9, 0, power cords</td>
+<td></td>
+<td>20</td>
+<td>Purchase.PartEntry@7a79be86</td></tr>
+<tr>
+<td title='Purchase.PartEntry.newpartentry()'><b>newpartentry</b><br>Test class: Purchase.PartEntry<br>Parameters: P003, 1236, GI Wire, kilogram, 90, 0, 0, 9, 9, 0, GI wires from Balaji Hw</td>
+<td></td>
+<td>19</td>
+<td>Purchase.PartEntry@7a79be86</td></tr>
+<tr>
+<td title='Purchase.PartEntry.newpartentry()'><b>newpartentry</b><br>Test class: Purchase.PartEntry<br>Parameters: P004, 1237, Dell Mouses, Pcs, 350, 0, 0, 0, 0, 18, Mouses</td>
+<td></td>
+<td>60</td>
+<td>Purchase.PartEntry@7a79be86</td></tr>
+<tr>
+<td title='Accounts.UpdateLedger.updledg()'><b>updledg</b><br>Test class: Accounts.UpdateLedger</td>
+<td></td>
+<td>41</td>
+<td>Accounts.UpdateLedger@3b6eb2ec</td></tr>
+</table><p>
+</body>
+</html>

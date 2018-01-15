@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="107.377">
+  <properties />
+  
+  
+            <testcase name="NewVendor" time="26.627" classname="Purchase.Vendors" />
+                <testcase name="NewVendor" time="26.974" classname="Purchase.Vendors" />
+                <testcase name="NewVendor" time="26.711" classname="Purchase.Vendors" />
+                <testcase name="NewVendor" time="27.065" classname="Purchase.Vendors" />
+      
+</testsuite>

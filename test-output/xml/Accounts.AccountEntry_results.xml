@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="140.983">
+  <properties />
+  
+  
+            <testcase name="accEntry" time="17.806" classname="Accounts.AccountEntry" />
+                <testcase name="accEntry" time="17.509" classname="Accounts.AccountEntry" />
+                <testcase name="accEntry" time="17.487" classname="Accounts.AccountEntry" />
+                <testcase name="accEntry" time="17.796" classname="Accounts.AccountEntry" />
+                <testcase name="accEntry" time="17.387" classname="Accounts.AccountEntry" />
+                <testcase name="accEntry" time="17.005" classname="Accounts.AccountEntry" />
+                <testcase name="accEntry" time="18.028" classname="Accounts.AccountEntry" />
+                <testcase name="accEntry" time="17.965" classname="Accounts.AccountEntry" />
+      
+</testsuite>

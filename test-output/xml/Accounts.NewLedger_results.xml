@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="87.130">
+  <properties />
+  
+  
+            <testcase name="newledgr" time="17.371" classname="Accounts.NewLedger" />
+                <testcase name="newledgr" time="16.627" classname="Accounts.NewLedger" />
+                <testcase name="newledgr" time="16.921" classname="Accounts.NewLedger" />
+                <testcase name="newledgr" time="16.389" classname="Accounts.NewLedger" />
+                <testcase name="newledgr" time="19.822" classname="Accounts.NewLedger" />
+      
+</testsuite>

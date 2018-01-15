@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="102.432">
+  <properties />
+  
+  
+            <testcase name="newcrrs" time="25.179" classname="Frontdesk.couriers" />
+                <testcase name="newcrrs" time="25.074" classname="Frontdesk.couriers" />
+                <testcase name="newcrrs" time="25.874" classname="Frontdesk.couriers" />
+                <testcase name="newcrrs" time="26.305" classname="Frontdesk.couriers" />
+      
+</testsuite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="255.409">
+  <properties />
+  
+  
+            <testcase name="genoffltr" time="19.790" classname="HR.offerletter" />
+                <testcase name="genoffltr" time="19.305" classname="HR.offerletter" />
+                <testcase name="genoffltr" time="19.877" classname="HR.offerletter" />
+                <testcase name="genoffltr" time="19.536" classname="HR.offerletter" />
+                <testcase name="genoffltr" time="19.425" classname="HR.offerletter" />
+                <testcase name="genoffltr" time="19.908" classname="HR.offerletter" />
+                <testcase name="genoffltr" time="19.412" classname="HR.offerletter" />
+                <testcase name="genoffltr" time="19.556" classname="HR.offerletter" />
+                <testcase name="genoffltr" time="19.486" classname="HR.offerletter" />
+                <testcase name="genoffltr" time="19.576" classname="HR.offerletter" />
+                <testcase name="genoffltr" time="19.396" classname="HR.offerletter" />
+                <testcase name="genoffltr" time="40.142" classname="HR.offerletter" />
+      
+</testsuite>

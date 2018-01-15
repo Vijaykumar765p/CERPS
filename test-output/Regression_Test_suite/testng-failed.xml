@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Regression_Test_suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="HR.EditEmp">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+          <include name="editemp"/>
+        </methods>
+      </class> <!-- HR.EditEmp -->
+      <class name="HR.AddEmp">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- HR.AddEmp -->
+      <class name="HR.offerletter">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- HR.offerletter -->
+      <class name="Frontdesk.couriers">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Frontdesk.couriers -->
+      <class name="Purchase.PartEntry">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Purchase.PartEntry -->
+      <class name="HR.MultLogin">
+        <methods>
+          <include name="initialize"/>
+          <include name="login"/>
+          <include name="closeBrowsers"/>
+        </methods>
+      </class> <!-- HR.MultLogin -->
+      <class name="Purchase.Vendors">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Purchase.Vendors -->
+      <class name="Accounts.NewLedger">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Accounts.NewLedger -->
+      <class name="Accounts.AccountEntry">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Accounts.AccountEntry -->
+      <class name="HR.AddCEO">
+        <methods>
+          <include name="login"/>
+          <include name="initialize"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- HR.AddCEO -->
+      <class name="Accounts.MultAccEntry">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Accounts.MultAccEntry -->
+      <class name="Accounts.UpdateLedger">
+        <methods>
+          <include name="login"/>
+          <include name="updledg"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Accounts.UpdateLedger -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Regression_Test_suite] -->

@@ -1,0 +1,4374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="65" passed="63">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression_Test_suite" duration-ms="2057055" started-at="2018-01-08T10:42:28Z" finished-at="2018-01-08T11:16:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="2057055" started-at="2018-01-08T10:42:28Z" finished-at="2018-01-08T11:16:45Z">
+      <class name="Accounts.NewLedger">
+        <test-method status="PASS" signature="login()[pri:0, instance:Accounts.NewLedger@2a5ca609]" name="login" is-config="true" duration-ms="6770" started-at="2018-01-08T16:35:53Z" finished-at="2018-01-08T16:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="newledgr(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Accounts.NewLedger@2a5ca609]" name="newledgr" duration-ms="16627" started-at="2018-01-08T16:36:00Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:36:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TEA EXPENSE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DIRECT EXPENSE ACCOUNT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DIRECT EXPEN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Cr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newledgr -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Accounts.NewLedger@2a5ca609]" name="close" is-config="true" duration-ms="926" started-at="2018-01-08T16:36:17Z" finished-at="2018-01-08T16:36:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Accounts.NewLedger@2a5ca609]" name="login" is-config="true" duration-ms="7141" started-at="2018-01-08T16:36:18Z" finished-at="2018-01-08T16:36:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="newledgr(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Accounts.NewLedger@2a5ca609]" name="newledgr" duration-ms="16921" started-at="2018-01-08T16:36:25Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:36:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AJIT PATIL UNION BANK 1133]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BANK ACCOUNT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EMPLOY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Cr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newledgr -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Accounts.NewLedger@2a5ca609]" name="close" is-config="true" duration-ms="1095" started-at="2018-01-08T16:36:42Z" finished-at="2018-01-08T16:36:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Accounts.NewLedger@2a5ca609]" name="login" is-config="true" duration-ms="7094" started-at="2018-01-08T16:36:43Z" finished-at="2018-01-08T16:36:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="newledgr(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Accounts.NewLedger@2a5ca609]" name="newledgr" duration-ms="19822" started-at="2018-01-08T16:36:50Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:37:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AJIT PATIL CITY BANK 2290]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BANK ACCOUNT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EMPLOY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Cr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newledgr -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Accounts.NewLedger@2a5ca609]" name="close" is-config="true" duration-ms="1109" started-at="2018-01-08T16:37:10Z" finished-at="2018-01-08T16:37:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Accounts.NewLedger@2a5ca609]" name="login" is-config="true" duration-ms="7602" started-at="2018-01-08T16:37:11Z" finished-at="2018-01-08T16:37:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="newledgr(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Accounts.NewLedger@2a5ca609]" name="newledgr" duration-ms="17371" started-at="2018-01-08T16:37:18Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:37:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AJIT PATIL AXIS BANK 8975]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BANK ACCOUNT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EMPLOY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Cr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newledgr -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Accounts.NewLedger@2a5ca609]" name="close" is-config="true" duration-ms="967" started-at="2018-01-08T16:37:36Z" finished-at="2018-01-08T16:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Accounts.NewLedger@2a5ca609]" name="login" is-config="true" duration-ms="7205" started-at="2018-01-08T16:37:37Z" finished-at="2018-01-08T16:37:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="newledgr(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Accounts.NewLedger@2a5ca609]" name="newledgr" duration-ms="16389" started-at="2018-01-08T16:37:44Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:38:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[POOJA EXPENSE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DIRECT EXPENSE ACCOUNT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EXPEN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Cr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newledgr -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Accounts.NewLedger@2a5ca609]" name="close" is-config="true" duration-ms="989" started-at="2018-01-08T16:38:00Z" finished-at="2018-01-08T16:38:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Accounts.NewLedger -->
+      <class name="HR.AddEmp">
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.AddEmp@548a9f61]" name="login" is-config="true" duration-ms="7609" started-at="2018-01-08T16:19:35Z" finished-at="2018-01-08T16:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="hres(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.AddEmp@548a9f61]" name="hres" duration-ms="40387" started-at="2018-01-08T16:19:42Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:20:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GANESH ASHOK MOTEKAR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Married]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[18/03/1986]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[B.K KANGRALI]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Belagavi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8951035547]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ganesh.motekar91@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\GANESH_ASHOK_MOTEKAR_ganesh.jpg]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\GANESH_ASHOK_MOTEKAR_download.jpg]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\GANESH_ASHOK_MOTEKAR_aadhar-card-photo.jpg]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[TEAM LEAD]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[00000002]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[AWIPM9128P]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[17/09/2015]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hres -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.AddEmp@548a9f61]" name="close" is-config="true" duration-ms="1153" started-at="2018-01-08T16:20:23Z" finished-at="2018-01-08T16:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.AddEmp@548a9f61]" name="login" is-config="true" duration-ms="7034" started-at="2018-01-08T16:20:24Z" finished-at="2018-01-08T16:20:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="hres(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.AddEmp@548a9f61]" name="hres" duration-ms="40406" started-at="2018-01-08T16:20:31Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:21:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VIJAYKUMAR ASHOK PATTAR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Single]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[26/04/1989]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Vivekananda nagar 9th cross,Gokak]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Belagavi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9731513765]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[vpattar6@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\Vijaykumar_Pattar_5277097-medium_jpg.jpg]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\Vijaykumar_Pattar_myaadharcard.png]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\Vijaykumar_Pattar_myaadharcard.png]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Automation Tester]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[00000003]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[BTKPP7426B]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[08/08/2016]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hres -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.AddEmp@548a9f61]" name="close" is-config="true" duration-ms="1113" started-at="2018-01-08T16:21:11Z" finished-at="2018-01-08T16:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.AddEmp@548a9f61]" name="login" is-config="true" duration-ms="6719" started-at="2018-01-08T16:21:12Z" finished-at="2018-01-08T16:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="hres(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.AddEmp@548a9f61]" name="hres" duration-ms="40693" started-at="2018-01-08T16:21:19Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:22:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NAMRATA SADASHIV SAMBAREKAR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Single]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[29/04/1992]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HOUSE NO. 4057/C2, KANGRAL GALLI]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Belagavi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8549826883]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[sambarekarnamrata@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\NAMRATA_SADASHIV_SAMBAREKAR_photo1.jpg]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\NAMRATA_SADASHIV_SAMBAREKAR_008.jpg]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\NAMRATA_SADASHIV_SAMBAREKAR_001.jpg]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Android Developer]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[00000004]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[GHJPS4391J]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[01/08/2016]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hres -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.AddEmp@548a9f61]" name="close" is-config="true" duration-ms="963" started-at="2018-01-08T16:22:00Z" finished-at="2018-01-08T16:22:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.AddEmp@548a9f61]" name="login" is-config="true" duration-ms="7055" started-at="2018-01-08T16:22:01Z" finished-at="2018-01-08T16:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="hres(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.AddEmp@548a9f61]" name="hres" duration-ms="40383" started-at="2018-01-08T16:22:08Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:22:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Santoshkumar Mallappa Badiger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Married]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10/07/1986]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ammanagi]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Belagavi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9741795072]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[santosh.b@credenceis.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\Santoshkumar_Mallappa_Badiger_Picture 310.jpg]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\Santoshkumar_Mallappa_Badiger_Screenshot_2016-10-07-15-55-05-997_com.intsig.camscanner.jpg]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\/Santoshkumar_Mallappa_Badiger_Screenshot_2016-10-07-15-55-05-997_com.intsig.camscanner.jpg]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Implementation Engg]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[00000005]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[BAHPB3290F]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[01/09/2013]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hres -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.AddEmp@548a9f61]" name="close" is-config="true" duration-ms="1032" started-at="2018-01-08T16:22:48Z" finished-at="2018-01-08T16:22:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.AddEmp@548a9f61]" name="login" is-config="true" duration-ms="7050" started-at="2018-01-08T16:22:49Z" finished-at="2018-01-08T16:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="hres(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.AddEmp@548a9f61]" name="hres" duration-ms="41086" started-at="2018-01-08T16:22:56Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:23:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BALESH SHRISHAIL DHULA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Single]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[13/07/1991]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[A/P: Shivapur (konnur) Ta:gokak Dist:Belagavi
+Pincode: 591231 karanatak]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Belagavi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8971825944]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[baleshdhula108@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\BALESH_SHRISHAIL_DHULA_IMG_20171109_191544.jpg]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\BALESH_SHRISHAIL_DHULA_ADHAR 10001.jpg]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\BALESH_SHRISHAIL_DHULA_ADHAR 10002.jpg]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[implementation Engineer]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[00000006]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[CAQPD1155F]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[20/07/2017]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hres -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.AddEmp@548a9f61]" name="close" is-config="true" duration-ms="930" started-at="2018-01-08T16:23:37Z" finished-at="2018-01-08T16:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.AddEmp@548a9f61]" name="login" is-config="true" duration-ms="6587" started-at="2018-01-08T16:23:38Z" finished-at="2018-01-08T16:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="hres(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.AddEmp@548a9f61]" name="hres" duration-ms="41063" started-at="2018-01-08T16:23:45Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:24:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rucha Akshay Bapat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Married]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[28/11/1991]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kelkar Baug , Belgaum]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Belagavi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9900619694]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ruchab28@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\Rucha_Akshay_Bapat_IMG_20171211_092136.jpg]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\Rucha_Akshay_Bapat_IMG_20171211_092059.jpg]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\Rucha_Akshay_Bapat_IMG_20171211_092030.jpg]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Software Implementation Analyst]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[00000007]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[ARQPA3783R]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[22/08/2017]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hres -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.AddEmp@548a9f61]" name="close" is-config="true" duration-ms="1056" started-at="2018-01-08T16:24:26Z" finished-at="2018-01-08T16:24:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.AddEmp@548a9f61]" name="login" is-config="true" duration-ms="7059" started-at="2018-01-08T16:24:27Z" finished-at="2018-01-08T16:24:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="hres(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.AddEmp@548a9f61]" name="hres" duration-ms="40529" started-at="2018-01-08T16:24:34Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:25:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SACHIN MAHADEV BADIGER]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Married]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01/02/1989]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[At/p kerur Tal :Chikodi Dist : Belgaum]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Belagavi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8105691901]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[sutar.bgm@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[SENIOR IMPLEMENTATION ENGINEER]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[00000008]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[AXEPB1382P]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[25/06/2014]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hres -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.AddEmp@548a9f61]" name="close" is-config="true" duration-ms="986" started-at="2018-01-08T16:25:15Z" finished-at="2018-01-08T16:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.AddEmp@548a9f61]" name="login" is-config="true" duration-ms="7057" started-at="2018-01-08T16:25:16Z" finished-at="2018-01-08T16:25:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="hres(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.AddEmp@548a9f61]" name="hres" duration-ms="42106" started-at="2018-01-08T16:25:23Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:26:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GIRISH ANJANAPPA GADAGKAR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Single]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01/01/1990]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Railway Qtrs No.131/B, Down Chawl, Gadag Road, Hubballi- 580020]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Belagavi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9886009773]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[girishgadagkar@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\GIRISH_ANJANAPPA_GADAGKAR_G_Photo Original.png]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\GIRISH_ANJANAPPA_GADAGKAR_Aadhaar Card_447811158254_18092017204931_732675.pdf]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\GIRISH_ANJANAPPA_GADAGKAR_Aadhaar Card_447811158254_18092017204931_732675.pdf]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Network Engineer]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[00000009]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[BANPG0820L]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[10/08/2015]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hres -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.AddEmp@548a9f61]" name="close" is-config="true" duration-ms="1038" started-at="2018-01-08T16:26:05Z" finished-at="2018-01-08T16:26:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.AddEmp@548a9f61]" name="login" is-config="true" duration-ms="7144" started-at="2018-01-08T16:26:06Z" finished-at="2018-01-08T16:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="hres(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.AddEmp@548a9f61]" name="hres" duration-ms="40563" started-at="2018-01-08T16:26:13Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:26:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NASHIRUDDIN A KODAGANUR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Married]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[31/07/1991]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[# 184, Sahyandri Nagar, Belgaum.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Belagavi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8553574795]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[nashir.k@credenceis.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Software Engineer]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[00000010]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[DGAPK3347B]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[26/10/2015]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hres -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.AddEmp@548a9f61]" name="close" is-config="true" duration-ms="960" started-at="2018-01-08T16:26:54Z" finished-at="2018-01-08T16:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.AddEmp@548a9f61]" name="login" is-config="true" duration-ms="7020" started-at="2018-01-08T16:26:55Z" finished-at="2018-01-08T16:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="hres(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.AddEmp@548a9f61]" name="hres" duration-ms="40023" started-at="2018-01-08T16:27:02Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:27:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VIKRAM VAMAN MARGANACHE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Married]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[13/06/1985]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[SARASWATI NAGAR]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Belagavi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9945946934]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[vikram.m@credenceis.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\VIKRAM_VAMAN_MARGANACHE_deepak.jpg]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Sr. Software Engineer]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[00000011]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[ASEDR3459B]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[26/07/2017]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hres -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.AddEmp@548a9f61]" name="close" is-config="true" duration-ms="1054" started-at="2018-01-08T16:27:42Z" finished-at="2018-01-08T16:27:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.AddEmp@548a9f61]" name="login" is-config="true" duration-ms="7420" started-at="2018-01-08T16:27:43Z" finished-at="2018-01-08T16:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="hres(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.AddEmp@548a9f61]" name="hres" duration-ms="46116" started-at="2018-01-08T16:27:50Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:28:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SUGANDHA V SHINDE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Single]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20/05/1996]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[H.no 4367, Chavat galli]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Belagavi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8792647966]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[sugandha.s@credenceis.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[C:\\Users\\vijay.p\\Downloads\\Images\\uploads\\SUGANDHA_V_SHINDE_IMG_20171211_094216.jpg]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Technical Support]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[00000012]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[ABCDE1234F]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[02/11/2017]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hres -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.AddEmp@548a9f61]" name="close" is-config="true" duration-ms="962" started-at="2018-01-08T16:28:36Z" finished-at="2018-01-08T16:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.AddEmp@548a9f61]" name="login" is-config="true" duration-ms="7094" started-at="2018-01-08T16:28:37Z" finished-at="2018-01-08T16:28:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="hres(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.AddEmp@548a9f61]" name="hres" duration-ms="41420" started-at="2018-01-08T16:28:44Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:29:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VEERABHADRA R HARIGOUDRA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Married]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30/11/1986]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[#99/2 main road Mangai nagar, Wadagaon.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Belagavi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9590672778]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[veerabhadraharigoudra@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Implementation engg]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[00000013]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[XYZWQ9867H]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[NULL]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[19/05/2017]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hres -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.AddEmp@548a9f61]" name="close" is-config="true" duration-ms="1283" started-at="2018-01-08T16:29:26Z" finished-at="2018-01-08T16:29:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- HR.AddEmp -->
+      <class name="HR.EditEmp">
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.EditEmp@1753acfe]" name="login" is-config="true" duration-ms="6971" started-at="2018-01-08T16:29:27Z" finished-at="2018-01-08T16:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="editemp()[pri:0, instance:HR.EditEmp@1753acfe]" name="editemp" duration-ms="8934" started-at="2018-01-08T16:29:34Z" finished-at="2018-01-08T16:29:43Z">
+          <exception class="org.openqa.selenium.InvalidElementStateException">
+            <message>
+              <![CDATA[invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 73 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:09'
+System info: host: 'vijayp', ip: '192.168.1.91', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_05'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Windows\TEMP\scoped_dir7140_11925}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4db3efc6dcd689e04b1d527151e7dfff]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 73 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:09'
+System info: host: 'vijayp', ip: '192.168.1.91', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_05'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Windows\TEMP\scoped_dir7140_11925}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4db3efc6dcd689e04b1d527151e7dfff
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:140)
+	at HR.EditEmp.editemp(EditEmp.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidElementStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editemp -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.EditEmp@1753acfe]" name="close" is-config="true" duration-ms="922" started-at="2018-01-08T16:29:43Z" finished-at="2018-01-08T16:29:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- HR.EditEmp -->
+      <class name="Accounts.UpdateLedger">
+        <test-method status="PASS" signature="login()[pri:0, instance:Accounts.UpdateLedger@20e2cbe0]" name="login" is-config="true" duration-ms="7077" started-at="2018-01-08T16:38:01Z" finished-at="2018-01-08T16:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="updledg()[pri:0, instance:Accounts.UpdateLedger@20e2cbe0]" name="updledg" duration-ms="7884" started-at="2018-01-08T16:38:08Z" finished-at="2018-01-08T16:38:16Z">
+          <exception class="org.openqa.selenium.InvalidElementStateException">
+            <message>
+              <![CDATA[invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 44 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:09'
+System info: host: 'vijayp', ip: '192.168.1.91', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_05'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Windows\TEMP\scoped_dir4480_3944}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ada89e14ea735efce2c2aac834ffdc46]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 44 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:09'
+System info: host: 'vijayp', ip: '192.168.1.91', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_05'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Windows\TEMP\scoped_dir4480_3944}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ada89e14ea735efce2c2aac834ffdc46
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:140)
+	at Accounts.UpdateLedger.updledg(UpdateLedger.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidElementStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updledg -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Accounts.UpdateLedger@20e2cbe0]" name="close" is-config="true" duration-ms="950" started-at="2018-01-08T16:38:16Z" finished-at="2018-01-08T16:38:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Accounts.UpdateLedger -->
+      <class name="Frontdesk.couriers">
+        <test-method status="PASS" signature="login()[pri:0, instance:Frontdesk.couriers@2a2d45ba]" name="login" is-config="true" duration-ms="7266" started-at="2018-01-08T16:33:36Z" finished-at="2018-01-08T16:33:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="newcrrs(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Frontdesk.couriers@2a2d45ba]" name="newcrrs" duration-ms="26305" started-at="2018-01-08T16:33:43Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:34:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Airtel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sugandha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Received Telephone bill from Airtel Fixedline and Broadband Services]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[E-teck System]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Noida]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[DTDC]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Sugandha]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[520]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Sent courier to Noida( 2 PON Faulty OLT for RMA)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newcrrs -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Frontdesk.couriers@2a2d45ba]" name="close" is-config="true" duration-ms="946" started-at="2018-01-08T16:34:10Z" finished-at="2018-01-08T16:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Frontdesk.couriers@2a2d45ba]" name="login" is-config="true" duration-ms="7335" started-at="2018-01-08T16:34:11Z" finished-at="2018-01-08T16:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="newcrrs(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Frontdesk.couriers@2a2d45ba]" name="newcrrs" duration-ms="25074" started-at="2018-01-08T16:34:18Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:34:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vodafone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sugandha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invoice]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SyroTech]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[DHFL]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[93884]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Sugandha]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Wires]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newcrrs -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Frontdesk.couriers@2a2d45ba]" name="close" is-config="true" duration-ms="1024" started-at="2018-01-08T16:34:43Z" finished-at="2018-01-08T16:34:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Frontdesk.couriers@2a2d45ba]" name="login" is-config="true" duration-ms="7077" started-at="2018-01-08T16:34:44Z" finished-at="2018-01-08T16:34:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="newcrrs(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Frontdesk.couriers@2a2d45ba]" name="newcrrs" duration-ms="25179" started-at="2018-01-08T16:34:51Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:35:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[E-teck System]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sachin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Material stock]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sunil G]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sankeshwar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[India Post]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[39948]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Sugandha]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Sent Legal notice]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newcrrs -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Frontdesk.couriers@2a2d45ba]" name="close" is-config="true" duration-ms="1044" started-at="2018-01-08T16:35:16Z" finished-at="2018-01-08T16:35:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Frontdesk.couriers@2a2d45ba]" name="login" is-config="true" duration-ms="7095" started-at="2018-01-08T16:35:17Z" finished-at="2018-01-08T16:35:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="newcrrs(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Frontdesk.couriers@2a2d45ba]" name="newcrrs" duration-ms="25874" started-at="2018-01-08T16:35:25Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:35:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Reliance]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sugandha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invoice]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sandeep M]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Gokak]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[India Post]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[09477]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Sugandha]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Sent Legal notice]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newcrrs -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Frontdesk.couriers@2a2d45ba]" name="close" is-config="true" duration-ms="2591" started-at="2018-01-08T16:35:50Z" finished-at="2018-01-08T16:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Frontdesk.couriers -->
+      <class name="HR.AddCEO">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:HR.AddCEO@d2cc05a]" name="initialize" is-config="true" duration-ms="21" started-at="2018-01-08T16:12:28Z" finished-at="2018-01-08T16:12:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.AddCEO@d2cc05a]" name="login" is-config="true" duration-ms="10762" started-at="2018-01-08T16:12:28Z" finished-at="2018-01-08T16:12:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="addceo()[pri:0, instance:HR.AddCEO@d2cc05a]" name="addceo" duration-ms="41084" started-at="2018-01-08T16:12:39Z" finished-at="2018-01-08T16:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addceo -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.AddCEO@d2cc05a]" name="close" is-config="true" duration-ms="2022" started-at="2018-01-08T16:13:20Z" finished-at="2018-01-08T16:13:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- HR.AddCEO -->
+      <class name="Accounts.MultAccEntry">
+        <test-method status="PASS" signature="login()[pri:0, instance:Accounts.MultAccEntry@28feb3fa]" name="login" is-config="true" duration-ms="7216" started-at="2018-01-08T16:41:41Z" finished-at="2018-01-08T16:41:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="multaccentry1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Accounts.MultAccEntry@28feb3fa]" name="multaccentry1" duration-ms="36680" started-at="2018-01-08T16:41:49Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:42:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FAAST INSTALLA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1500]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FAAST DEPO]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1500]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[135]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[135]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[738092]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[07/01/2018]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[ICICI bank]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Jaiwanth Swamy UN 8277115134 (SMB: SVN Monginis)New Connection - OTC received from CCPL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multaccentry1 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Accounts.MultAccEntry@28feb3fa]" name="close" is-config="true" duration-ms="1006" started-at="2018-01-08T16:42:25Z" finished-at="2018-01-08T16:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Accounts.MultAccEntry -->
+      <class name="HR.MultLogin">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:HR.MultLogin@7c16905e]" name="initialize" is-config="true" duration-ms="5" started-at="2018-01-08T16:29:44Z" finished-at="2018-01-08T16:29:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.MultLogin@7c16905e]" name="login" is-config="true" duration-ms="4433" started-at="2018-01-08T16:29:44Z" finished-at="2018-01-08T16:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.MultLogin@7c16905e]" name="doLoginTest" duration-ms="13558" started-at="2018-01-08T16:29:48Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:30:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BTKPP7426B]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BTKPP7426B]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[31391520568]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SBIN0001727]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[STATE BANK OF INDIA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:HR.MultLogin@7c16905e]" name="closeBrowsers" is-config="true" duration-ms="925" started-at="2018-01-08T16:30:02Z" finished-at="2018-01-08T16:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.MultLogin@7c16905e]" name="login" is-config="true" duration-ms="4740" started-at="2018-01-08T16:30:03Z" finished-at="2018-01-08T16:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.MultLogin@7c16905e]" name="doLoginTest" duration-ms="13422" started-at="2018-01-08T16:30:08Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:30:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GHJPS4391J]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GHJPS4391J]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[35200671165]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SBIN0001813]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[STATE BANK OF INDIA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:HR.MultLogin@7c16905e]" name="closeBrowsers" is-config="true" duration-ms="931" started-at="2018-01-08T16:30:21Z" finished-at="2018-01-08T16:30:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.MultLogin@7c16905e]" name="login" is-config="true" duration-ms="4346" started-at="2018-01-08T16:30:22Z" finished-at="2018-01-08T16:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.MultLogin@7c16905e]" name="doLoginTest" duration-ms="13917" started-at="2018-01-08T16:30:26Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:30:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BAHPB3290F]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BAHPB3290F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3504743307]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CBIN0280871]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[CENTRAL BANK OF INDIA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:HR.MultLogin@7c16905e]" name="closeBrowsers" is-config="true" duration-ms="1304" started-at="2018-01-08T16:30:40Z" finished-at="2018-01-08T16:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.MultLogin@7c16905e]" name="login" is-config="true" duration-ms="4503" started-at="2018-01-08T16:30:42Z" finished-at="2018-01-08T16:30:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.MultLogin@7c16905e]" name="doLoginTest" duration-ms="13758" started-at="2018-01-08T16:30:46Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:31:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ARQPA3783R]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ARQPA3783R]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[60215946208]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MAHB0000031]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[BANK OF MAHARASHTRA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:HR.MultLogin@7c16905e]" name="closeBrowsers" is-config="true" duration-ms="965" started-at="2018-01-08T16:31:00Z" finished-at="2018-01-08T16:31:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.MultLogin@7c16905e]" name="login" is-config="true" duration-ms="5032" started-at="2018-01-08T16:31:01Z" finished-at="2018-01-08T16:31:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.MultLogin@7c16905e]" name="doLoginTest" duration-ms="13699" started-at="2018-01-08T16:31:06Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:31:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AXEPB1382P]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AXEPB1382P]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3504009261]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CBIN0280871]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[CENTRAL BANK OF INDIA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:HR.MultLogin@7c16905e]" name="closeBrowsers" is-config="true" duration-ms="936" started-at="2018-01-08T16:31:20Z" finished-at="2018-01-08T16:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.MultLogin@7c16905e]" name="login" is-config="true" duration-ms="4918" started-at="2018-01-08T16:31:21Z" finished-at="2018-01-08T16:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.MultLogin@7c16905e]" name="doLoginTest" duration-ms="13600" started-at="2018-01-08T16:31:25Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:31:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AWIPM9128P]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AWIPM9128P]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3504008462]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CBIN0280871]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[CENTRAL BANK OF INDIA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:HR.MultLogin@7c16905e]" name="closeBrowsers" is-config="true" duration-ms="1260" started-at="2018-01-08T16:31:39Z" finished-at="2018-01-08T16:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.MultLogin@7c16905e]" name="login" is-config="true" duration-ms="4898" started-at="2018-01-08T16:31:40Z" finished-at="2018-01-08T16:31:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.MultLogin@7c16905e]" name="doLoginTest" duration-ms="13423" started-at="2018-01-08T16:31:45Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:31:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BANPG0820L]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BANPG0820L]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3504005212]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CBIN0280871]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[CENTRAL BANK OF INDIA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:HR.MultLogin@7c16905e]" name="closeBrowsers" is-config="true" duration-ms="938" started-at="2018-01-08T16:31:59Z" finished-at="2018-01-08T16:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.MultLogin@7c16905e]" name="login" is-config="true" duration-ms="4996" started-at="2018-01-08T16:32:00Z" finished-at="2018-01-08T16:32:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.MultLogin@7c16905e]" name="doLoginTest" duration-ms="13577" started-at="2018-01-08T16:32:05Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:32:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ASEDR3459B]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ASEDR3459B]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[520291039635381]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CORP0001492]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[CORPORATION BANK]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:HR.MultLogin@7c16905e]" name="closeBrowsers" is-config="true" duration-ms="996" started-at="2018-01-08T16:32:18Z" finished-at="2018-01-08T16:32:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.MultLogin@7c16905e]" name="login" is-config="true" duration-ms="4498" started-at="2018-01-08T16:32:19Z" finished-at="2018-01-08T16:32:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.MultLogin@7c16905e]" name="doLoginTest" duration-ms="13614" started-at="2018-01-08T16:32:24Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:32:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CAQPD1155F]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CAQPD1155F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2412268597]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[KKBK0000447]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[KOTAK MAHINDRA BANK]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:HR.MultLogin@7c16905e]" name="closeBrowsers" is-config="true" duration-ms="1040" started-at="2018-01-08T16:32:37Z" finished-at="2018-01-08T16:32:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.MultLogin@7c16905e]" name="login" is-config="true" duration-ms="4796" started-at="2018-01-08T16:32:38Z" finished-at="2018-01-08T16:32:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.MultLogin@7c16905e]" name="doLoginTest" duration-ms="13169" started-at="2018-01-08T16:32:43Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:32:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DGAPK3347B]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DGAPK3347B]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3504004036]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CBIN0280871]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[CENTRAL BANK OF INDIA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:HR.MultLogin@7c16905e]" name="closeBrowsers" is-config="true" duration-ms="944" started-at="2018-01-08T16:32:56Z" finished-at="2018-01-08T16:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.MultLogin@7c16905e]" name="login" is-config="true" duration-ms="5026" started-at="2018-01-08T16:32:57Z" finished-at="2018-01-08T16:33:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.MultLogin@7c16905e]" name="doLoginTest" duration-ms="13594" started-at="2018-01-08T16:33:02Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:33:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABCDE1234F]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABCDE1234F]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20346305228]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SBIN0017789]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[STATE BANK INDIA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:HR.MultLogin@7c16905e]" name="closeBrowsers" is-config="true" duration-ms="1029" started-at="2018-01-08T16:33:16Z" finished-at="2018-01-08T16:33:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.MultLogin@7c16905e]" name="login" is-config="true" duration-ms="4669" started-at="2018-01-08T16:33:17Z" finished-at="2018-01-08T16:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.MultLogin@7c16905e]" name="doLoginTest" duration-ms="13587" started-at="2018-01-08T16:33:22Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:33:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[XYZWQ9867H]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[XYZWQ9867H]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3504008462]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CBIN0280871]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[CENTRAL BANK OF INDIA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:HR.MultLogin@7c16905e]" name="closeBrowsers" is-config="true" duration-ms="975" started-at="2018-01-08T16:33:35Z" finished-at="2018-01-08T16:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- HR.MultLogin -->
+      <class name="Accounts.AccountEntry">
+        <test-method status="PASS" signature="login()[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="login" is-config="true" duration-ms="6608" started-at="2018-01-08T16:38:17Z" finished-at="2018-01-08T16:38:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="accEntry" duration-ms="17806" started-at="2018-01-08T16:38:24Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:38:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FAAST INSTALLA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ranjit Singh Kohli UN 9632195667 New Connection - OTC received from CCPL(installation charges)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accEntry -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="close" is-config="true" duration-ms="904" started-at="2018-01-08T16:38:42Z" finished-at="2018-01-08T16:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="login" is-config="true" duration-ms="7037" started-at="2018-01-08T16:38:43Z" finished-at="2018-01-08T16:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="accEntry" duration-ms="17796" started-at="2018-01-08T16:38:50Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:39:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FAAST DEPO]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ranjit Singh Kohli UN 9632195667 New Connection - OTC received from CCPL(Deposit amount)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accEntry -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="close" is-config="true" duration-ms="955" started-at="2018-01-08T16:39:07Z" finished-at="2018-01-08T16:39:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="login" is-config="true" duration-ms="7067" started-at="2018-01-08T16:39:08Z" finished-at="2018-01-08T16:39:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="accEntry" duration-ms="17509" started-at="2018-01-08T16:39:15Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FAAST MON]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[875]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Deepa Reddy UN 9964526730 Received Internet bill for month Nov-2017]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accEntry -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="close" is-config="true" duration-ms="1009" started-at="2018-01-08T16:39:33Z" finished-at="2018-01-08T16:39:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="login" is-config="true" duration-ms="7075" started-at="2018-01-08T16:39:34Z" finished-at="2018-01-08T16:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="accEntry" duration-ms="18028" started-at="2018-01-08T16:39:41Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:39:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FAAST MON]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1500]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[738092]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[08/01/2018]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Axis bank]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sadanand Bhusari UN 9341399467 New Connection - OTC received from CCPL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accEntry -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="close" is-config="true" duration-ms="939" started-at="2018-01-08T16:39:59Z" finished-at="2018-01-08T16:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="login" is-config="true" duration-ms="6946" started-at="2018-01-08T16:40:00Z" finished-at="2018-01-08T16:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="accEntry" duration-ms="17965" started-at="2018-01-08T16:40:07Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:40:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SANTOSH]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Being Paid for dinner to 5 member(santosh,sachin veerbhadra,raghavendra,sharnu)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accEntry -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="close" is-config="true" duration-ms="1019" started-at="2018-01-08T16:40:25Z" finished-at="2018-01-08T16:40:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="login" is-config="true" duration-ms="6593" started-at="2018-01-08T16:40:26Z" finished-at="2018-01-08T16:40:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="accEntry" duration-ms="17387" started-at="2018-01-08T16:40:33Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:40:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AJIT PATIL HD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Being Cash deposited in HDFC by Balesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accEntry -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="close" is-config="true" duration-ms="990" started-at="2018-01-08T16:40:50Z" finished-at="2018-01-08T16:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="login" is-config="true" duration-ms="7211" started-at="2018-01-08T16:40:51Z" finished-at="2018-01-08T16:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="accEntry" duration-ms="17005" started-at="2018-01-08T16:40:58Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:41:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BALESH]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Being Paid for breakpast expences]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accEntry -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="close" is-config="true" duration-ms="956" started-at="2018-01-08T16:41:15Z" finished-at="2018-01-08T16:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="login" is-config="true" duration-ms="6755" started-at="2018-01-08T16:41:16Z" finished-at="2018-01-08T16:41:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="accEntry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="accEntry" duration-ms="17487" started-at="2018-01-08T16:41:23Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:41:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VEERA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Being Paid for petrol expences]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accEntry -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Accounts.AccountEntry@68be2bc2]" name="close" is-config="true" duration-ms="943" started-at="2018-01-08T16:41:40Z" finished-at="2018-01-08T16:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Accounts.AccountEntry -->
+      <class name="Purchase.PartEntry">
+        <test-method status="PASS" signature="login()[pri:0, instance:Purchase.PartEntry@51565ec2]" name="login" is-config="true" duration-ms="12729" started-at="2018-01-08T16:44:47Z" finished-at="2018-01-08T16:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="newpartentry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Purchase.PartEntry@51565ec2]" name="newpartentry" duration-ms="20063" started-at="2018-01-08T16:45:00Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:45:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[P001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SAMSUNG SSD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nos]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3900]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Solid state drive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newpartentry -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Purchase.PartEntry@51565ec2]" name="close" is-config="true" duration-ms="987" started-at="2018-01-08T16:45:20Z" finished-at="2018-01-08T16:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Purchase.PartEntry@51565ec2]" name="login" is-config="true" duration-ms="7313" started-at="2018-01-08T16:45:21Z" finished-at="2018-01-08T16:45:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="newpartentry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Purchase.PartEntry@51565ec2]" name="newpartentry" duration-ms="20268" started-at="2018-01-08T16:45:28Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:45:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[P002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1235]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[COMPUTER POWER CORDS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nos]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[59.32]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[power cords]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newpartentry -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Purchase.PartEntry@51565ec2]" name="close" is-config="true" duration-ms="985" started-at="2018-01-08T16:45:49Z" finished-at="2018-01-08T16:45:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Purchase.PartEntry@51565ec2]" name="login" is-config="true" duration-ms="7019" started-at="2018-01-08T16:45:50Z" finished-at="2018-01-08T16:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="newpartentry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Purchase.PartEntry@51565ec2]" name="newpartentry" duration-ms="19940" started-at="2018-01-08T16:45:57Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[P003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1236]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[GI Wire]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kilogram]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[GI wires from Balaji Hw]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newpartentry -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Purchase.PartEntry@51565ec2]" name="close" is-config="true" duration-ms="943" started-at="2018-01-08T16:46:17Z" finished-at="2018-01-08T16:46:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Purchase.PartEntry@51565ec2]" name="login" is-config="true" duration-ms="6807" started-at="2018-01-08T16:46:18Z" finished-at="2018-01-08T16:46:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="newpartentry(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Purchase.PartEntry@51565ec2]" name="newpartentry" duration-ms="19969" started-at="2018-01-08T16:46:24Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:46:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[P004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1237]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dell Mouses]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pcs]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[350]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Mouses]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newpartentry -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Purchase.PartEntry@51565ec2]" name="close" is-config="true" duration-ms="963" started-at="2018-01-08T16:46:44Z" finished-at="2018-01-08T16:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Purchase.PartEntry -->
+      <class name="HR.offerletter">
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.offerletter@4f933fd1]" name="login" is-config="true" duration-ms="6933" started-at="2018-01-08T16:13:25Z" finished-at="2018-01-08T16:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="genoffltr(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.offerletter@4f933fd1]" name="genoffltr" duration-ms="19305" started-at="2018-01-08T16:13:32Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:13:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GANESH ASHOK MOTEKAR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ganesh.motekar91@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[17/09/2015]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TEAM LEAD]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ajit Patil]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genoffltr -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.offerletter@4f933fd1]" name="close" is-config="true" duration-ms="1002" started-at="2018-01-08T16:13:51Z" finished-at="2018-01-08T16:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.offerletter@4f933fd1]" name="login" is-config="true" duration-ms="7255" started-at="2018-01-08T16:13:52Z" finished-at="2018-01-08T16:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="genoffltr(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.offerletter@4f933fd1]" name="genoffltr" duration-ms="19790" started-at="2018-01-08T16:13:59Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:14:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VIJAYKUMAR ASHOK PATTAR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vpattar6@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[08/08/2016]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Automation Tester]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ajit Patil]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genoffltr -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.offerletter@4f933fd1]" name="close" is-config="true" duration-ms="928" started-at="2018-01-08T16:14:19Z" finished-at="2018-01-08T16:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.offerletter@4f933fd1]" name="login" is-config="true" duration-ms="7318" started-at="2018-01-08T16:14:20Z" finished-at="2018-01-08T16:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="genoffltr(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.offerletter@4f933fd1]" name="genoffltr" duration-ms="19877" started-at="2018-01-08T16:14:27Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:14:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NAMRATA SADASHIV SAMBAREKAR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sambarekarnamrata@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01/08/2016]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Android Developer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ajit Patil]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genoffltr -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.offerletter@4f933fd1]" name="close" is-config="true" duration-ms="950" started-at="2018-01-08T16:14:47Z" finished-at="2018-01-08T16:14:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.offerletter@4f933fd1]" name="login" is-config="true" duration-ms="7611" started-at="2018-01-08T16:14:48Z" finished-at="2018-01-08T16:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="genoffltr(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.offerletter@4f933fd1]" name="genoffltr" duration-ms="19486" started-at="2018-01-08T16:14:56Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:15:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Santoshkumar Mallappa Badiger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[santosh.b@credenceis.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01/09/2013]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Implementation Engg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ajit Patil]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genoffltr -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.offerletter@4f933fd1]" name="close" is-config="true" duration-ms="953" started-at="2018-01-08T16:15:15Z" finished-at="2018-01-08T16:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.offerletter@4f933fd1]" name="login" is-config="true" duration-ms="6812" started-at="2018-01-08T16:15:16Z" finished-at="2018-01-08T16:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="genoffltr(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.offerletter@4f933fd1]" name="genoffltr" duration-ms="19412" started-at="2018-01-08T16:15:23Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:15:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BALESH SHRISHAIL DHULA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[baleshdhula108@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20/07/2017]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[implementation Engineer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ajit Patil]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genoffltr -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.offerletter@4f933fd1]" name="close" is-config="true" duration-ms="962" started-at="2018-01-08T16:15:43Z" finished-at="2018-01-08T16:15:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.offerletter@4f933fd1]" name="login" is-config="true" duration-ms="7174" started-at="2018-01-08T16:15:43Z" finished-at="2018-01-08T16:15:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="genoffltr(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.offerletter@4f933fd1]" name="genoffltr" duration-ms="19396" started-at="2018-01-08T16:15:51Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:16:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rucha Akshay Bapat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ruchab28@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22/08/2017]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Software Implementation Analyst]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ajit Patil]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genoffltr -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.offerletter@4f933fd1]" name="close" is-config="true" duration-ms="982" started-at="2018-01-08T16:16:10Z" finished-at="2018-01-08T16:16:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.offerletter@4f933fd1]" name="login" is-config="true" duration-ms="20623" started-at="2018-01-08T16:16:11Z" finished-at="2018-01-08T16:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="genoffltr(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.offerletter@4f933fd1]" name="genoffltr" duration-ms="19576" started-at="2018-01-08T16:16:32Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:16:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SACHIN MAHADEV BADIGER]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sutar.bgm@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25/06/2014]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[SENIOR IMPLEMENTATION ENGINEER]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ajit Patil]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genoffltr -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.offerletter@4f933fd1]" name="close" is-config="true" duration-ms="1023" started-at="2018-01-08T16:16:51Z" finished-at="2018-01-08T16:16:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.offerletter@4f933fd1]" name="login" is-config="true" duration-ms="6640" started-at="2018-01-08T16:16:52Z" finished-at="2018-01-08T16:16:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="genoffltr(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.offerletter@4f933fd1]" name="genoffltr" duration-ms="40142" started-at="2018-01-08T16:16:59Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:17:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GIRISH ANJANAPPA GADAGKAR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[girishgadagkar@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10/08/2015]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Network Engineer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ajit Patil]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genoffltr -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.offerletter@4f933fd1]" name="close" is-config="true" duration-ms="965" started-at="2018-01-08T16:17:39Z" finished-at="2018-01-08T16:17:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.offerletter@4f933fd1]" name="login" is-config="true" duration-ms="9858" started-at="2018-01-08T16:17:40Z" finished-at="2018-01-08T16:17:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="genoffltr(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.offerletter@4f933fd1]" name="genoffltr" duration-ms="19425" started-at="2018-01-08T16:17:50Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:18:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NASHIRUDDIN A KODAGANUR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nashir.k@credenceis.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[26/10/2015]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Software Engineer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ajit Patil]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genoffltr -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.offerletter@4f933fd1]" name="close" is-config="true" duration-ms="940" started-at="2018-01-08T16:18:09Z" finished-at="2018-01-08T16:18:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.offerletter@4f933fd1]" name="login" is-config="true" duration-ms="7589" started-at="2018-01-08T16:18:10Z" finished-at="2018-01-08T16:18:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="genoffltr(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.offerletter@4f933fd1]" name="genoffltr" duration-ms="19908" started-at="2018-01-08T16:18:18Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:18:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VIKRAM VAMAN MARGANACHE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vikram.m@credenceis.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[26/07/2017]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sr. Software Engineer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ajit Patil]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genoffltr -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.offerletter@4f933fd1]" name="close" is-config="true" duration-ms="939" started-at="2018-01-08T16:18:38Z" finished-at="2018-01-08T16:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.offerletter@4f933fd1]" name="login" is-config="true" duration-ms="7100" started-at="2018-01-08T16:18:39Z" finished-at="2018-01-08T16:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="genoffltr(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.offerletter@4f933fd1]" name="genoffltr" duration-ms="19536" started-at="2018-01-08T16:18:46Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:19:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SUGANDHA V SHINDE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sugandha.s@credenceis.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[02/11/2017]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Technical Support]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ajit Patil]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genoffltr -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.offerletter@4f933fd1]" name="close" is-config="true" duration-ms="956" started-at="2018-01-08T16:19:05Z" finished-at="2018-01-08T16:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:HR.offerletter@4f933fd1]" name="login" is-config="true" duration-ms="7214" started-at="2018-01-08T16:19:06Z" finished-at="2018-01-08T16:19:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="genoffltr(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HR.offerletter@4f933fd1]" name="genoffltr" duration-ms="19556" started-at="2018-01-08T16:19:13Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:19:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VEERABHADRA R HARIGOUDRA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[veerabhadraharigoudra@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[19/05/2017]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Implementation engg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ajit Patil]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[120000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genoffltr -->
+        <test-method status="PASS" signature="close()[pri:0, instance:HR.offerletter@4f933fd1]" name="close" is-config="true" duration-ms="929" started-at="2018-01-08T16:19:33Z" finished-at="2018-01-08T16:19:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- HR.offerletter -->
+      <class name="Purchase.Vendors">
+        <test-method status="PASS" signature="login()[pri:0, instance:Purchase.Vendors@675d3402]" name="login" is-config="true" duration-ms="8674" started-at="2018-01-08T16:42:26Z" finished-at="2018-01-08T16:42:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="NewVendor(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Purchase.Vendors@675d3402]" name="NewVendor" duration-ms="26711" started-at="2018-01-08T16:42:35Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:43:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Airtel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B-1178, Shop No.2, G D Colony, Near Redfox Hotel, Mayur Vihar Ph-3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[New Delhi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9876832890]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0832789654]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2129998888]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[07ABCDE1234A1Z1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[ABNMJ1234K]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[SUNIL MISHRA]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[sunilmishra.airtel@gmail.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Cr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewVendor -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Purchase.Vendors@675d3402]" name="close" is-config="true" duration-ms="971" started-at="2018-01-08T16:43:02Z" finished-at="2018-01-08T16:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Purchase.Vendors@675d3402]" name="login" is-config="true" duration-ms="6962" started-at="2018-01-08T16:43:03Z" finished-at="2018-01-08T16:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="NewVendor(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Purchase.Vendors@675d3402]" name="NewVendor" duration-ms="27065" started-at="2018-01-08T16:43:10Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:43:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[E-Tech Systems]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shop No.2, Om Maruti Building, Fort Road, Near Subhash Transport]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Belagavi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Karnataka]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9876052856]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0832789655]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2129998889]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[29ABCDE9876A1Z2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[XYZWQ9867H]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[AMIT SHAH]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[amithshah@yahoo.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Cr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewVendor -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Purchase.Vendors@675d3402]" name="close" is-config="true" duration-ms="1008" started-at="2018-01-08T16:43:37Z" finished-at="2018-01-08T16:43:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Purchase.Vendors@675d3402]" name="login" is-config="true" duration-ms="6799" started-at="2018-01-08T16:43:38Z" finished-at="2018-01-08T16:43:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="NewVendor(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Purchase.Vendors@675d3402]" name="NewVendor" duration-ms="26627" started-at="2018-01-08T16:43:45Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:44:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vodafone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Peninsula Corporate Park,Ganpatrao Kadam Marg,Lower Parel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Maharastra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9886098860]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0871715000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2224963645]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[27ABCDE7894B1Z2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[MKCCJ5674C]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ Vittorio Colao]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[vodafonecare.kar@vodafone.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Cr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewVendor -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Purchase.Vendors@675d3402]" name="close" is-config="true" duration-ms="987" started-at="2018-01-08T16:44:11Z" finished-at="2018-01-08T16:44:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Purchase.Vendors@675d3402]" name="login" is-config="true" duration-ms="6822" started-at="2018-01-08T16:44:12Z" finished-at="2018-01-08T16:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="NewVendor(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Purchase.Vendors@675d3402]" name="NewVendor" duration-ms="26974" started-at="2018-01-08T16:44:19Z" data-provider="SampleDataProvider" finished-at="2018-01-08T16:44:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sun Computers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[No 6/2 P.R.Lane SP road cross bangalore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Karnataka]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9342898451]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0841154685]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2984963645]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[29ANAPS8146C1ZV]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[HGHJC8364K]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ARJUN SINGH]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[sun-computers@live.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Cr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewVendor -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Purchase.Vendors@675d3402]" name="close" is-config="true" duration-ms="1070" started-at="2018-01-08T16:44:46Z" finished-at="2018-01-08T16:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Purchase.Vendors -->
+    </test> <!-- Test -->
+  </suite> <!-- Regression_Test_suite -->
+</testng-results>

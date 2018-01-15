@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression_Test_suite" preserve-order="true"
+	parallel="false" verbose="10">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="HR.AddCEO" />
+			<class name="HR.offerletter" />
+			<class name="HR.AddEmp" />
+			<class name="HR.EditEmp" />
+			<class name="HR.MultLogin" />
+			<class name="Frontdesk.couriers" />
+			<class name="Accounts.NewLedger" />
+			<class name="Accounts.UpdateLedger" />
+			<class name="Accounts.AccountEntry" />
+			<class name="Accounts.MultAccEntry"/>
+			<class name="Purchase.Vendors" />
+			<class name="Purchase.PartEntry" />
+		</classes>
+	</test>
+</suite>
